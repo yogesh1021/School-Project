@@ -44,7 +44,7 @@ export default function AddSchool() {
           <label className="block mb-1">School Name *</label>
           <input className="w-full border p-2 rounded"
             {...register('name', { required: 'Required' })}
-            placeholder="St. Xavier High School"
+            placeholder="ABC High School"
           />
           {errors.name && <p className="text-red-600 text-sm">{errors.name.message}</p>}
         </div>
